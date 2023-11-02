@@ -1,0 +1,362 @@
+/* the 100vh and 100vw set the size of the body to fill the viewport (screen) */
+body {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  margin: 0;
+  background-image: url("images/wallpaper1.png"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  overflow: hidden;
+}
+/*  ***Helpfull links***
+https://codesandbox.io/s/unlock-the-manifolds-challenge-final-p5vhyp
+https://codesandbox.io/s/genshin-interactive-elements-prodject-with-interaction-forked-fx9788
+https://codesandbox.io/s/jackpot-machine-challenge-no-layout-starter-code-forked-87xjjm
+/* build your layout */
+.box {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+.box2 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+.box3 {
+  height: 45%;
+  width: 100%;
+  display: flex;
+}
+.box4 {
+  height: 100%;
+  width: 40%;
+  display: flex;
+}
+.box5 {
+  height: 100%;
+  width: 20%;
+  display: block;
+}
+.box6 {
+  height: 100%;
+  width: 45%;
+  display: flex;
+}
+.box7 {
+  height: 100%;
+  width: 55%;
+}
+.box8 {
+  height: 100%;
+  width: 30%;
+}
+.box9 {
+  height: 100%;
+  width: 40%;
+}
+.box10 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+.box11 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+.box12 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+.box13 {
+  height: 100%;
+  width: 50%;
+}
+.box14 {
+  height: 100%;
+  width: calc(100% / 5);
+  /*20%*/
+}
+.box15 {
+  height: 100%;
+  width: calc(100% / 25);
+  /*4%*/
+}
+.box16 {
+  height: 100%;
+  width: calc(100% / 100 * 15);
+  /*15%*/
+}
+.box17 {
+  height: 100%;
+  width: calc(100% / 20);
+  /*5%*/
+}
+.box18 {
+  height: 100%;
+  width: calc(100% / 4);
+  /*25%*/
+}
+.box19 {
+  height: 100%;
+  width: calc(100% / 10);
+  display: block;
+  /*10%*/
+}
+.box20 {
+  height: 100%;
+  width: calc(100% / 100 * 21);
+  display: block;
+  /*21%*/
+}
+.box21 {
+  height: 30%;
+  width: 100%;
+}
+.box22 {
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+.box23 {
+  height: 100%;
+  width: 30%;
+}
+.box24 {
+  height: 100%;
+  width: 40%;
+}
+
+.box25 {
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+.box26 {
+  height: 60%;
+  width: 100%;
+}
+.box27 {
+  height: 100%;
+  width: 35%;
+}
+.box28 {
+  height: 100%;
+  width: 65%;
+}
+.box29 {
+  height: 100%;
+  width: calc(100% / 5);
+}
+.box30 {
+  height: 100%;
+  width: calc(100% / 100 * 59);
+  display: block;
+}
+.box31 {
+  height: 100%;
+  width: calc(100% / 100 * 21);
+}
+.box32 {
+  height: 18%;
+  width: 100%;
+  display: flex;
+}
+.box33 {
+  height: 82%;
+  width: 100%;
+  display: flex;
+}
+.box34 {
+  height: 100%;
+  width: 100%;
+}
+.box35 {
+  height: 100%;
+  width: calc(100% / 59 * 24);
+}
+.box36 {
+  height: 100%;
+  width: calc(100% / 59 * 25);
+}
+.box37 {
+  height: 100%;
+  width: calc(100% / 59 * 10);
+  display: flex;
+}
+.box38 {
+  height: 100%;
+  width: calc(100% / 59 * 24);
+  display: flex;
+}
+.box39 {
+  height: 100%;
+  width: calc(100% / 59 * 10);
+  display: flex;
+}
+.box40 {
+  height: 100%;
+  width: calc(100% / 59 * 25);
+  display: flex;
+}
+.box41 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+}
+.box42 {
+  height: 100%;
+  width: 35%;
+  display: flex;
+}
+.box43 {
+  height: 100%;
+  width: 40%;
+  display: flex;
+}
+.box44 {
+  height: 53%;
+  width: 40%;
+}
+.box45 {
+  height: 47%;
+  width: 100%;
+}
+/* control your content */
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.fill-img {
+  height: 100%;
+  width: 100%;
+}
+.contain-image {
+  height: 100%;
+  width: 100%;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.center-end {
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+.center-top {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+.interact:active {
+  transform: ;
+}
+
+.interact:hover {
+  cursor: pointer;
+  filter: brightness(70%) drop-shadow(1px 2px 3px);
+}
+/* colors to see divs */
+.black {
+  background-color: #000000;
+}
+.pink {
+  background-color: #eb5674;
+}
+.blue {
+  background-color: #01acf1;
+}
+.red {
+  background-color: #ed1b24;
+}
+.green {
+  background-color: #32d666;
+}
+.yellow {
+  background-color: #fbee40;
+}
+.orange {
+  background-color: #fd5632;
+}
+.grey {
+  background-color: #d3d3d3;
+}
+.dark-grey {
+  background-color: #3a3b3c;
+}
+.purple {
+  background-color: #cb00fd;
+}
+.dark-purple {
+  background-color: #601881;
+}
+.magenta {
+  background-color: #ac0c84;
+}
+.silver {
+  background-color: #8a8a8a;
+}
+.transparent {
+  background-color: #7f00b100;
+}
+.shadow {
+  filter: brightness(40%);
+}
+.shadow2 {
+  background-color: #000000a8;
+}
+
+.SemiGreen {
+  background-color: #3f852aad;
+}
+
+.SemiPurple {
+  background-color: #7a13a3a8;
+}
+.SemiBlue {
+  background-color: #1fb5c9a8;
+}
+
+.SemiRed {
+  background-color: #a82020a8;
+}
+
+.drawer1 {
+  background-image: url("images/Drawer1.PNG");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.drawer1open {
+  background-image: url("images/Drawer1-Open.PNG");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.drawer1failed {
+  background-image: url("images/Drawer1-Failed.PNG");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.drawer1pass {
+  background-image: url("images/Drawer1-Done.PNG");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.greendropshadow {
+  box-shadow: 0px 0px 10px #1eff00;
+  align-items: center;
+  background-color: #1eff00;
+}
+.reddropshadow {
+  box-shadow: 0px 0px 10px #ff1e00;
+  background-color: #ff1e00;
+}
+.anti-clickdiv {
+  pointer-events: none;
+}
